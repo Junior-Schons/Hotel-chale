@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    min-width: 687px;
+    background: url('../_imagens/fundo-fotos.jpg') no-repeat;
+    background-size:cover;
+    
+}
+.cabecalho{
+    background: rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(10);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    height: 100px;
+}
+#img-logo{
+   margin-left: 40px;
+   
+}
+.im-titulo{
+    margin-top: 20px;
+    margin-left: 1px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+.navegacao{
+    backdrop-filter: blur(10);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: right;
+    padding: 40px;
+    height: 21px;
+    
+    
+}
+.cabecalho-itens{
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    margin-left: 30px;
+}
+.cabecalho-itens:hover{
+    text-decoration: underline;
+    color: brown;
+    
+}
+/*     conteudo da pagina principal     */
+.area-principal{
+    display:flex;
+    justify-content: center;
+
+}
+.titulo{
+    background-color: rgba(44, 42, 42, 0.363);
+    border-radius: 30px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    color: aliceblue;
+    font-size: 32px;
+}
+
+.bloco-fotos{
+    font-family: 'Fredoka', sans-serif;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+.container-01{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.container-02{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.container-03{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.container-04{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.container-05{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    min-width: fit-content;
+}
+
+.border{
+    border-radius: 10px;
+}
+.foto-01{
+    display: flex;
+}
+.rodape{
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+    font-family:'Fredoka', sans-serif;
+    text-align:center;
+    margin-top: 70px;
+    padding: 10px;
+}
